@@ -1,0 +1,70 @@
+.title{
+    color: rgb(56, 140, 143);  
+    font-weight: bolder; 
+    padding-top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+  .box {
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    padding: 10px 20px 15px; 
+    color:black;
+    background-color: white; 
+
+  }
+
+  .panel {
+    border-style: solid;
+    color: aliceblue
+  }
+
+  img{
+    width:100% !important;
+    height:100% !important;
+}
+.navbar-brand{
+    background-color: rgb(56, 140, 143)
+}
+
+.navbar-light .navbar-brand{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.active, .panel:hover{
+  border-color:rgb(56, 140, 143);
+  border-style: solid; 
+  
+}
+.nav-link:hover{
+  background-color:rgb(214, 227, 228) !important;
+ }
+ .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+  background-color:rgb(214, 227, 228) !important; 
+}
+
+@media(max-width: 780px){
+  .navbar-expand-lg{
+  background-color: #ffff !important;
+  }
+  .navbar{
+      max-height: none; 
+      padding: inherit;
+  }
+  .navbar div{
+      margin: inherit; 
+      background-color: white;  
+  }
+  .navbar-brand{
+      padding: 10px !important; 
+  }
+  
+  button{
+      margin-right: 30px; 
+  }
+  button:focus {
+  
+      outline: 1px dotted;
+      outline: 5px auto -webkit-focusring-color;
+      
+      }
+  }
