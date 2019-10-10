@@ -23,7 +23,9 @@
     height:100% !important
 }
 .navbar-brand{
-    background-color: rgb(56, 140, 143)
+    background: rgb(56, 140, 143);
+    background-size: 110%;
+    color: darkslategray;
 }
 
 .navbar-light .navbar-brand{
