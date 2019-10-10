@@ -42,6 +42,13 @@
   background-color:rgb(214, 227, 228) !important; 
 }
 
+.table-striped {
+  border-color: darkgray;
+  border: "1";
+}
+
+
+
 @media(max-width: 780px){
   .navbar-expand-lg{
   background-color: #ffff !important;
