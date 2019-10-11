@@ -26,6 +26,7 @@
     background: rgb(56, 140, 143);
     background-size: 110%;
     color: darkslategray;
+    padding: 5px 10px;
 }
 
 .navbar-light .navbar-brand{
